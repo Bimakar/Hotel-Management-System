@@ -1,0 +1,77 @@
+.container.Search{
+ background-image: url('/assets/download 5.jpg') ; 
+    height: 450px;
+    width: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.btn.btn-outline-primary{
+    float: center;
+    border: none;
+    border-radius: 1.5rem;
+    padding-bottom: 3.5%;
+    background: #8bc348;
+    color: black;
+    width: 15%;
+    height: 10px;
+    cursor: pointer;
+    font-size: 250%;
+    margin-left: 40%;
+    font-weight: bold;
+}
+.search.checkbox{
+  padding-left: 2%;
+}
+
+.table.Search{
+    
+    font-size: 100%;
+    font-weight: lighter;
+
+}
+.btn.btn-outline-secondary{
+    float: center;
+    margin-top: 10%;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 2%;
+    background:  #8bc348;
+    color: #fff;
+    width: 11%;
+    height: 2%;
+}
+.heading{
+    margin-top: 1%;
+    /* text-align: center; */
+    margin-left: 40%;
+    font-size: 200%;
+    color: black;
+    font-weight: bolder;
+}
+.td.control{
+    font-size: 130%;
+    color: black;
+    font-weight: lighter;
+    height: 100%;
+}
+.form-control{
+    border: none;
+    border-radius: 0.5rem;
+
+    width: 50%;
+}
+#check_in_date{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 2%;   
+}
+
+#check_out_date{
+    border: none;
+    border-radius: 0.5rem;
+    padding: 2%;
+}
+/*  */
+
