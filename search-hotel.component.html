@@ -1,0 +1,49 @@
+<!-- <div class="row">
+  <div class="col-xs-12 col-12 col-sm-6 col-md-4 form-group">
+     <input class="date-control"
+    type="date"
+           placeholder="Datepicker"
+           ngModel
+          bsDatepicker [bsConfig]="datePickerConfig"
+           > 
+           <input type="text" class="form-control" bsDatepicker [bsConfig]="datePickerConfig" placeholder="Deadline"
+           required />
+  </div>
+<div>{{minDate}}</div> -->
+
+
+  <div class="container Search" >
+    <div class="row">
+      <div class="col-lg-12" style="padding-top: 400px;">
+      </div>
+    </div>
+  </div>
+<div class="container">
+<form #searchotel = "ngForm" (ngSubmit)="onSubmit(searchotel.value)">
+  <h3 class="heading">Search Hotel</h3>
+    <table class="table Search" align="center">
+      <tr>
+        <td class="td control">City</td>
+        <td class="td control">Check-In Date</td>
+        <td class="td control">Check-out Date</td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="text" class="form-control" placeholder="Enter city" value="" pattern="[A-Za-z]{3,}" required/>
+        </td>
+        <td>
+          <input type="text" id="check_in_date"  name="check_in_date"  placeholder="check-in date" 
+          bsDatepicker [bsConfig]="datePickerConfig"  ngModel required/>
+        </td>
+        <td>
+          <input type="text" id="check_out_date" name="check_out_date" placeholder="check-out date" 
+          bsDatepicker [bsConfig]="datePickerConfig" ngModel required/>
+        </td>
+      </tr> 
+    </table>
+  
+    <button type="submit" class="btn btn-outline-primary">Check</button>
+    
+</form>
+</div>
